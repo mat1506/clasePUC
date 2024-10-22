@@ -1,0 +1,24 @@
+name: class_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - r-base=4.3.3
+  - r-essentials
+  - rpy2
+  - jupyterlab
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - tidyverse
+  - r-ggplot2
+  - r-dplyr
+  - r-sf
+  - pip
+  pip:
+    - pyleoclim
+    - pyproj
+    - shapely

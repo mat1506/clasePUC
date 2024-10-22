@@ -1,0 +1,12 @@
+#!/bin/bash
+# Registrar el kernel de R
+R -e "IRkernel::installspec(user = FALSE)"
+
+# Registrar el kernel de Python
+python -m ipykernel install --name class_env --display-name "Python 3 (class_env)"
+
+# Instalar extensiones de JupyterLab
+jupyter labextension install @jupyterlab/geojson-extension jupyterlab-drawio
+
+# Imprimir un mensaje indicando que todo está listo
+echo "Todos los kernels y extensiones están instalados y listos para usar."
