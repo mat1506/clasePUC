@@ -3,27 +3,30 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  # Python y sus dependencias
   - python=3.11
-  - r-base=4.3.3
-  - r-essentials
-  - rpy2
   - jupyterlab
   - numpy
   - pandas
   - matplotlib
   - seaborn
   - scikit-learn
-  - tidyverse
+
+  # R y sus dependencias
+  - r-base=4.3.3
+  - r-essentials
   - r-ggplot2
   - r-dplyr
   - r-sf
-  - pip  # Asegúrate de que `pip` esté en la misma indentación que las demás dependencias
   - r-leaflet
   - r-rmarkdown
   - r-rnaturalearth
 
-  # Paquetes adicionales de Python instalados con pip
-  pip:
+  # Integración R y Python
+  - rpy2
+
+  # Dependencias adicionales de Python
+  - pip:
     - pyleoclim
     - pyproj
     - shapely
