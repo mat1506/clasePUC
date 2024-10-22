@@ -3,7 +3,7 @@
 R -e "IRkernel::installspec(user = FALSE)"
 
 # Registrar el kernel de Python
-python -m ipykernel install --name class_env --display-name "Python 3 (class_env)"
+python -m ipykernel install --name clasePUC --display-name "Python 3 (clasePUC)"
 
 # Instalar extensiones de JupyterLab
 jupyter labextension install @jupyterlab/geojson-extension jupyterlab-drawio

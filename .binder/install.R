@@ -1,13 +1,17 @@
-# Establecer un repositorio de CRAN actualizado
+# Establecer un repositorio actualizado de CRAN
 options(repos = c(CRAN = "https://cloud.r-project.org/"))
 
-# Instalar paquetes adicionales de R
-install.packages(c("leaflet", "rmarkdown", "sf", "rnaturalearth", "dplR"))
+# Instalar paquetes principales
+install.packages(c(
+  "ggplot2", "dplyr", "tidyverse", "MASS", "Matrix", "sf",
+  "units", "rmarkdown", "rnaturalearth", "here", "httr",
+  "shinydashboard", "leaflet", "dplR", "rbacon", "neotoma2"
+), dependencies = TRUE)
 
-# Instalar paquetes desde GitHub
+# Instalar geoChronR y lipdR desde GitHub
 remotes::install_github("nickmckay/lipdR", force = TRUE)
 remotes::install_github("nickmckay/geoChronR", force = TRUE)
 
-# Registrar el kernel de R
+# Registrar el kernel de R para Jupyter
 install.packages("IRkernel")
 IRkernel::installspec(user = FALSE)
