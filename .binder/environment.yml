@@ -1,4 +1,4 @@
-name: class_env
+name: clasePUC
 channels:
   - conda-forge
   - defaults
@@ -17,8 +17,14 @@ dependencies:
   - r-ggplot2
   - r-dplyr
   - r-sf
-  - pip
+  - pip  # Asegúrate de que `pip` esté en la misma indentación que las demás dependencias
+  - r-leaflet
+  - r-rmarkdown
+  - r-rnaturalearth
+
+  # Paquetes adicionales de Python instalados con pip
   pip:
     - pyleoclim
     - pyproj
     - shapely
+
