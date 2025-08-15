@@ -13,11 +13,6 @@ dependencies:
   - scikit-learn
   - pylipd
   - watermark
-  - pip
-pip:
-  - pyleoclim
-  - pyproj
-  - shapely
 
   # R y sus dependencias
   - r-base=4.3.3
@@ -28,15 +23,14 @@ pip:
   - r-leaflet
   - r-rmarkdown
   - r-rnaturalearth
-  - r-geoChronR
-  - r-lipdR
-
-  # Integración R y Python
   - rpy2
 
-  # Dependencias adicionales de Python
+  # pip debe estar definido antes de usarse
+  - pip
+
+  # pip packages (solo uno, indentado correctamente)
   - pip:
-    - pyleoclim
-    - pyproj
-    - shapely
+      - pyleoclim
+      - pyproj
+      - shapely
 
