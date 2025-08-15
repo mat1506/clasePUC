@@ -11,6 +11,13 @@ dependencies:
   - matplotlib
   - seaborn
   - scikit-learn
+  - pylipd
+  - watermark
+  - pip
+pip:
+  - pyleoclim
+  - pyproj
+  - shapely
 
   # R y sus dependencias
   - r-base=4.3.3
@@ -21,6 +28,8 @@ dependencies:
   - r-leaflet
   - r-rmarkdown
   - r-rnaturalearth
+  - r-geoChronR
+  - r-lipdR
 
   # Integración R y Python
   - rpy2
