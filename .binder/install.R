@@ -5,6 +5,12 @@ Sys.setenv(R_REMOTES_NO_ERRORS_FROM_WARNINGS = "true")
 
 # Solo lo que no está en conda: lipdR y geoChronR desde GitHub
 # (Asumimos que sus dependencias pesadas vienen por conda: dplR, lme4, nloptr, XML, etc.)
+
+install.packages(c(
+  "rbacon",
+  "neotoma2"
+), dependencies = TRUE)
+
 if (!requireNamespace("remotes", quietly = TRUE)) install.packages("remotes")
 remotes::install_github("nickmckay/lipdR",
                         upgrade = "never",

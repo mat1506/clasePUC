@@ -35,8 +35,6 @@ dependencies:
   - r-shinydashboard
   - r-leaflet
   - r-dplr
-  - r-rbacon        # si está disponible, de lo contrario usar en install.R
-  - r-neotoma2      # idem arriba
   - r-remotes       # para install_github
 
 
