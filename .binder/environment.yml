@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  # Python y sus dependencias
+  # Python
   - python=3.11
   - jupyterlab
   - numpy
@@ -11,10 +11,11 @@ dependencies:
   - matplotlib
   - seaborn
   - scikit-learn
-  - pylipd
   - watermark
+  - pylipd
+  - rpy2
 
-  # R y sus dependencias
+  # R
   - r-base=4.3.3
   - r-essentials
   - r-ggplot2
@@ -23,12 +24,9 @@ dependencies:
   - r-leaflet
   - r-rmarkdown
   - r-rnaturalearth
-  - rpy2
 
-  # pip debe estar definido antes de usarse
+  # Pip section (solo una vez)
   - pip
-
-  # pip packages (solo uno, indentado correctamente)
   - pip:
       - pyleoclim
       - pyproj

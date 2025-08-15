@@ -5,7 +5,7 @@ options(repos = c(CRAN = "https://cloud.r-project.org/"))
 install.packages(c(
   "ggplot2", "dplyr", "tidyverse", "MASS", "Matrix", "sf",
   "units", "rmarkdown", "rnaturalearth", "here", "httr",
-  "shinydashboard", "leaflet", "dplR", "rbacon", "neotoma2"
+  "shinydashboard", "leaflet", "dplR","remotes", "rbacon", "neotoma2"
 ), dependencies = TRUE)
 
 # Instalar geoChronR y lipdR desde GitHub
