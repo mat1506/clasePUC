@@ -1,9 +1,10 @@
 name: clasePUC
 channels:
   - conda-forge
+
 dependencies:
-  # Python
-  - python=3.11
+  # ——— Python (mantengo 3.10 para que Binder NO cambie de base) ———
+  - python=3.10
   - jupyterlab
   - numpy
   - pandas
@@ -15,7 +16,7 @@ dependencies:
   - shapely
   - rpy2
 
-# R base y herramientas
+  # ——— R (usar conda para lo pesado y evitar compilar en CRAN) ———
   - r-base=4.3
   - r-essentials
   - r-ggplot2
@@ -34,14 +35,15 @@ dependencies:
   - r-httr
   - r-shinydashboard
   - r-leaflet
-  - r-dplr
-  - r-remotes       # para install_github
+  - r-dplr          # (dplR en CRAN -> r-dplr en conda-forge)
+  - r-remotes
+  - r-xml
+  - r-lme4
+  - r-nloptr
 
-
-  # Pip (solo lo que no está en conda)
+  # ——— pip (solo lo que no está en conda) ———
   - pip
   - pip:
       - pyleoclim
-      # Si necesitas LiPD en Python usa 'lipd' (no 'pylipd'):
-      - lipd
+      - lipd            # LiPD para Python (no 'pylipd')
 

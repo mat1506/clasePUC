@@ -1,14 +1,33 @@
-#!/bin/bash
-# Registrar el kernel de R
+#!/usr/bin/env bash
+set -euo pipefail
 
-set -e
+echo "[postBuild] Registrando kernels…"
 
-R -q -e "IRkernel::installspec(user = TRUE)" || true
-python -m ipykernel install --user --name clasePUC --display-name "Python (clasePUC)" || true
-
-# Copiar el notebook de inicio solo si no existe en $HOME
-if [ -f "inicio.ipynb" ] && [ ! -f "$HOME/inicio.ipynb" ]; then
-  cp inicio.ipynb "$HOME/"
+# ---- R kernel (IRkernel) ----
+if R -q -e "IRkernel::installspec(user = TRUE); q()" >/dev/null 2>&1; then
+  echo "[postBuild] IRkernel registrado (o ya existía)."
+else
+  echo "[postBuild] Aviso: no se pudo registrar IRkernel (¿instalado?)."
 fi
 
-echo "PostBuild listo."
+# ---- Python kernel con nombre 'clasePUC' ----
+if jupyter kernelspec list 2>/dev/null | grep -q "^clasePUC"; then
+  echo "[postBuild] Kernel Python 'clasePUC' ya existe."
+else
+  if python -m ipykernel install --user --name clasePUC --display-name "Python (clasePUC)" >/dev/null 2>&1; then
+    echo "[postBuild] Kernel Python 'clasePUC' registrado."
+  else
+    echo "[postBuild] Aviso: no se pudo registrar el kernel Python 'clasePUC'."
+  fi
+fi
+
+# ---- Copiar notebook de inicio al HOME si no existe ----
+if [ -f "inicio.ipynb" ] && [ ! -f "$HOME/inicio.ipynb" ]; then
+  cp inicio.ipynb "$HOME/"
+  echo "[postBuild] Copiado 'inicio.ipynb' a \$HOME."
+else
+  echo "[postBuild] 'inicio.ipynb' ya estaba en \$HOME o no existe en el repo."
+fi
+
+echo "[postBuild] Listo."
+
