@@ -1,11 +1,14 @@
 #!/bin/bash
 # Registrar el kernel de R
-R -e "IRkernel::installspec(user = FALSE)" || true
 
-# Registrar el kernel de Python
-python -m ipykernel install --name clasePUC --display-name "Python 3 (clasePUC)" || true
+set -e
 
-cp inicio.ipynb $HOME
+R -q -e "IRkernel::installspec(user = TRUE)" || true
+python -m ipykernel install --user --name clasePUC --display-name "Python (clasePUC)" || true
 
-# Imprimir un mensaje indicando que todo está listo
-echo "Todos los kernels y extensiones están instalados y listos para usar."
+# Copiar el notebook de inicio solo si no existe en $HOME
+if [ -f "inicio.ipynb" ] && [ ! -f "$HOME/inicio.ipynb" ]; then
+  cp inicio.ipynb "$HOME/"
+fi
+
+echo "PostBuild listo."
