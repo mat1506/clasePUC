@@ -1,7 +1,6 @@
 name: clasePUC
 channels:
-  - conda-forge
-  - defaults
+  - conda-forge          # usa solo conda-forge para evitar conflictos geoespaciales
 dependencies:
   # Python
   - python=3.11
@@ -12,23 +11,25 @@ dependencies:
   - seaborn
   - scikit-learn
   - watermark
-  - pylipd
+  - pyproj               # mejor por conda que por pip
+  - shapely              # mejor por conda que por pip
   - rpy2
 
   # R
-  - r-base=4.3.3
-  - r-essentials
+  - r-base=4.3
+  - r-essentials         # incluye IRkernel
   - r-ggplot2
   - r-dplyr
   - r-sf
   - r-leaflet
   - r-rmarkdown
   - r-rnaturalearth
+  - r-remotes            # para instalar desde GitHub sin compilar toolchain
 
-  # Pip section (solo una vez)
+  # Sección pip (una sola vez y dentro de dependencies)
   - pip
   - pip:
-      - pyleoclim
-      - pyproj
-      - shapely
+      - pyleoclim        # aquí lo que NO está en conda
+      # Si necesitas LiPD en Python usa 'lipd' (no 'pylipd'):
+      - lipd
 

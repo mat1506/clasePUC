@@ -3,7 +3,7 @@ options(repos = c(CRAN = "https://cloud.r-project.org/"))
 
 # Instalar paquetes principales
 install.packages(c(
-  "ggplot2", "dplyr", "tidyverse", "MASS", "Matrix", "sf",
+  "ggplot2","devtools","jsonlite","Rcpp", "dplyr", "tidyverse", "MASS", "Matrix", "sf",
   "units", "rmarkdown", "rnaturalearth", "here", "httr",
   "shinydashboard", "leaflet", "dplR","remotes", "rbacon", "neotoma2"
 ), dependencies = TRUE)

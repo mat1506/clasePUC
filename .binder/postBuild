@@ -1,10 +1,11 @@
 #!/bin/bash
 # Registrar el kernel de R
-R -e "IRkernel::installspec(user = FALSE)"
+R -e "IRkernel::installspec(user = FALSE)" || true
 
 # Registrar el kernel de Python
-python -m ipykernel install --name clasePUC --display-name "Python 3 (clasePUC)"
+python -m ipykernel install --name clasePUC --display-name "Python 3 (clasePUC)" || true
 
+cp inicio.ipynb $HOME
 
 # Imprimir un mensaje indicando que todo está listo
 echo "Todos los kernels y extensiones están instalados y listos para usar."
