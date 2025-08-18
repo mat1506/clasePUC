@@ -24,6 +24,13 @@ remotes::install_github(
   quiet = TRUE
 )
 
+remotes::install_github(
+  "nsj3/riojaPlot",
+  upgrade = "never",
+  dependencies = NA,
+  build_vignettes = FALSE,
+  quiet = TRUE)
+
 # ¡NO registres IRkernel aquí! En Binder, hacerlo como root da "Permission denied".
 # Lo registramos en postBuild con user=TRUE.
 
