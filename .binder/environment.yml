@@ -42,6 +42,7 @@ dependencies:
   - r-nloptr
   - r-rcarbon
   - r-sp
+  - r-spatstat.geom
 
   # ——— pip (solo lo que no está en conda) ———
   - pip
