@@ -1,0 +1,115 @@
+Sitio,C14ID,C14Age,C14SD,calCurves,Material,SiteID,Country,Lat,Lon,ele,elevation,eleva,DateID,ref
+Pampa Ramaditas,1,7265,26,shcal20,Madera,1,Chile,-21.06,-69.537217828,1000,800-1000,700-1000,PR5,Paula Ugalde?
+Pampa Ramaditas,2,7265,26,shcal20,Tronco,2,Chile,-21.069862807,-69.537217828,900,800-1000,700-1000,PR5,Francisca Díaz – Paula Ugalde
+Pampa Ramaditas,3,2118,30,shcal20,Tocones,3,Chile,-21.021266546601,-69.3666567978362,1113,1000-1500,>1000,RAM12-13,Mario A. Rivera and J. Dood 2013
+Pampa Ramaditas,4,2527,50,shcal20,Tocones,4,Chile,-21.0225298469501,-69.3674297480176,1116,1000-1500,>1000,RAM-131,Mario A. Rivera and J. Dood 2013
+Pampa Ramaditas,5,2483,50,shcal20,Tocones,5,Chile,-21.0225298469501,-69.3674297480176,1116,1000-1500,>1000,RAM12-lO,Mario A. Rivera and J. Dood 2013
+Pampa Ramaditas,6,7265,26,shcal20,Tocones,6,Chile,-21.0782958643182,-69.5372577473217,840,800-1000,700-1000,PUV001,Paula Ugalde
+Pampa Ramaditas,7,13589,34,shcal20,Tocones,7,Chile,-21.0811056484741,-69.5199105881551,848,800-1000,700-1000,PUV182,Paula Ugalde
+Pampa Ramaditas,8,13980,33,shcal20,Tocones,8,Chile,-21.0811056484741,-69.5199105881551,848,800-1000,700-1000,PUV182,Paula Ugalde
+Pampa Ramaditas,9,13702,32,shcal20,Tocones,9,Chile,-21.0725646860655,-69.5295264753959,840,800-1000,700-1000,WEFC S/N,Paula Ugalde
+Pampa Ramaditas,10,13944,37,shcal20,Tocones,10,Chile,-21.0810029550512,-69.5209884413599,850,800-1000,700-1000,GS169/1 0,Paula Ugalde
+Pampa Ramaditas,11,13900,30,shcal20,Tocones,11,Chile,-21.06,-69.537217828,1011,1000-1500,>1000,PR5-3-PT,Paula Ugalde
+Pampa Ramaditas,12,14590,30,shcal20,Tocones,12,Chile,-21.06,-69.537217828,1011,1000-1500,>1000,PR5-1-PT,Paula Ugalde
+Pampa Ramaditas,13,9610,20,shcal20,Tocones,13,Chile,-21.06,-69.537217828,1011,1000-1500,>1000,PR7-9-PT,Paula Ugalde
+Quebrada de Mani,14,870,30,shcal20,Hojas,14,Chile,-21.09,-69.3,1280,1000-1500,>1000,QM-2a,Nester et al.. 2007
+Quebrada de Mani,15,960,30,shcal20,Hojas,15,Chile,-21.09,-69.28,1350,1000-1500,>1000,QM-2e,Nester et al.. 2007
+Quebrada de Mani,16,1110,30,shcal20,Hojas,16,Chile,-21.09,-69.3,1280,1000-1500,>1000,QM-3a,Nester et al.. 2007
+Quebrada de Mani,17,13190,35,shcal20,Hojas,17,Chile,-21.09,-69.32,1200,1000-1500,>1000,QM-4,Nester et al.. 2007
+Quebrada de Mani,18,960,30,shcal20,Ramas,18,Chile,-21.09,-69,2730,1000-1500,>1000,QM-2E,Gayo et al. 2012
+Quebrada de Mani,19,1110,30,shcal20,Hojas,19,Chile,-21.08,-69.3,1290,1000-1500,>1000,QM-3,Gayo et al. 2012
+Quebrada de Mani,20,790,25,shcal20,Ramas,20,Chile,-21.08,-69.31,1250,1000-1500,>1000,QM-14,Gayo et al. 2012
+Quebrada de Mani,21,810,25,shcal20,Hojas,21,Chile,-21.085,-69.3,1290,1000-1500,>1000,QM-16,Gayo et al. 2012
+Quebrada de Mani,22,990,25,shcal20,Hojas,22,Chile,-21.085,-69.3,1290,1000-1500,>1000,QM-18,Gayo et al. 2012
+Quebrada de Mani,23,13750,90,shcal20,Madera,23,Chile,-21.09744,-69.27,1370,1000-1500,>1000,M18,Workman et al.. 2020
+Quebrada de Mani,24,9760,150,shcal20,Madera,24,Chile,-21.09337,-69.31,1245,1000-1500,>1000,MWS 1-1,Workman et al.. 2020
+Quebrada de Mani,25,8410,50,shcal20,Madera,25,Chile,-21.0957,-69.29,1370,1000-1500,>1000,M 19,Workman et al.. 2020
+Quebrada de Mani,26,6800,40,shcal20,Madera,26,Chile,-21.10263,-69.32,1200,1000-1500,>1000,M2,Workman et al.. 2020
+Quebrada de Mani,27,2270,30,shcal20,Madera,27,Chile,-21.10263,-69.32,1200,1000-1500,>1000,M9,Workman et al.. 2020
+Quebrada de Mani,28,2230,40,shcal20,Madera,28,Chile,-21.10263,-69.32,1200,1000-1500,>1000,M1,Workman et al.. 2020
+Quebrada de Mani,29,1730,30,shcal20,Árbol,29,Chile,-21.09744,-69.27,1370,1000-1500,>1000,M17,Workman et al.. 2020
+Quebrada de Mani,30,1610,30,shcal20,Madera,30,Chile,-21.10263,-69.32,1200,1000-1500,>1000,M5,Workman et al.. 2020
+Quebrada de Mani,31,1610,20,shcal20,Madera,31,Chile,-21.10263,-69.32,1200,1000-1500,>1000,M7,Workman et al.. 2020
+Quebrada de Mani,32,1420,20,shcal20,Madera,32,Chile,-21.10263,-69.32,1200,1000-1500,>1000,M8,Workman et al.. 2020
+Quebrada de Mani,33,6792,24,shcal20,Madera,33,Chile,-21.13,-69.497056401,846,800-1000,700-1000,C.QM-32,Paula Ugalde?
+Quebrada de Mani,34,990,10,shcal20,Tocones,34,Chile,-21.08,-69.31,1250,1000-1500,>1000,QM12-22-PT,Paula Ugalde
+Quebrada de Mani,35,9307,28,shcal20,Tocones,35,Chile,-21.1474459589313,-69.4977011029874,840,800-1000,700-1000,GMJ006,Paula Ugalde
+Quebrada de Mani,36,9866,28,shcal20,Tocones,36,Chile,-21.1457006452629,-69.4982153510478,840,800-1000,700-1000,GMJ008,Paula Ugalde
+Quebrada de Mani,37,9472,29,shcal20,Tocones,37,Chile,-21.1408520197107,-69.5122504139862,830,800-1000,700-1000,GS164/T 4,Paula Ugalde
+Quebrada de Mani,38,9483,27,shcal20,Tocones,38,Chile,-21.140433,-69.512116,830,800-1000,700-1000,WEFC20,Paula Ugalde
+Quebrada de Mani,39,9650,28,shcal20,Tocones,39,Chile,-21.1384408474321,-69.5058281500664,835,800-1000,700-1000,PUV013,Paula Ugalde
+Quebrada de Mani,40,9706,30,shcal20,Tocones,40,Chile,-21.1384408474321,-69.5058281500664,835,800-1000,700-1000,PUV013,Paula Ugalde
+Quebrada de Mani,41,9853,27,shcal20,Tocones,41,Chile,-21.1402418490452,-69.5108518638881,832,800-1000,700-1000,GMJ004,Paula Ugalde
+Quebrada de Mani,42,10040,20,shcal20,Tocones,42,Chile,-21.1402418490452,-69.5108518638881,832,800-1000,700-1000,MF-20-SN,Paula Ugalde
+Quebrada de Mani,43,10511,28,shcal20,Tocones,43,Chile,-21.139922,-69.510683,833,800-1000,700-1000,WEFC23,Paula Ugalde
+Quebrada de Mani,44,9932,28,shcal20,Tocones,44,Chile,-21.1375582801432,-69.4894724783585,850,800-1000,700-1000,PUV174-T3,Paula Ugalde
+Quebrada de Mani,45,10235,37,shcal20,Tocones,45,Chile,-21.1326114583184,-69.4941461629569,846,800-1000,700-1000,GMJ010,Paula Ugalde
+Quebrada de Sipuca,46,13330,80,shcal20,Hojas,46,Chile,-21.23,-69.19,1570,>1500,>1000,QS-1a,Nester et al.. 2007
+Quebrada de Sipuca,47,13400,70,shcal20,Hojas,47,Chile,-21.23,-69.2,1530,>1500,>1000,QS-3,Nester et al.. 2007
+Quebrada de Sipuca,48,14470,70,shcal20,Hojas,48,Chile,-21.23,-69.2,1530,>1500,>1000,N05-10,Nester et al.. 2007
+Quebrada de Sipuca,49,13330,80,shcal20,Hojas,49,Chile,-21.221,-69.19,1630,>1500,>1000,QS-1,Gayo et al. 2012
+Quebrada de Sipuca,50,13400,70,shcal20,Hojas,50,Chile,-21.22178786,-69.2,1530,>1500,>1000,QS-3,Gayo et al. 2012
+Quebrada de Sipuca,51,10950,30,shcal20,Madera,51,Chile,-21.26,-69.49,830,800-1000,700-1000,QM-84,Pfeiffer et al.. 2018
+Quebrada de Sipuca,52,12530,35,shcal20,Madera,52,Chile,-21.26,-69.31,1167,1000-1500,>1000,QS-15A,Pfeiffer et al.. 2018
+Quebrada de Sipuca,53,12590,45,shcal20,Madera,53,Chile,-21.26,-69.32,1140,1000-1500,>1000,QS-16b,Pfeiffer et al.. 2018
+Quebrada de Sipuca,54,10950,30,shcal20,Tocones,54,Chile,-21.26,-69.49,830,800-1000,700-1000,QM-84,Paula Ugalde
+Quebrada de Tambillo,55,13290,80,shcal20,Hojas,55,Chile,-21.43,-69.25,1530,>1500,>1000,QT-1,Nester et al.. 2007
+Quebrada de Tambillo,56,12940,150,shcal20,Hojas,56,Chile,-21.43,-69.25,1530,>1500,>1000,QT-5,Nester et al.. 2007
+Quebrada de Tambillo,57,13310,180,shcal20,Hojas,57,Chile,-21.43,-69.25,1530,>1500,>1000,QT-6,Nester et al.. 2007
+Quebrada de Tambillo,58,13280,70,shcal20,Hojas,58,Chile,-21.44,-69.26,1285,1000-1500,>1000,QT-8,Nester et al.. 2007
+Quebrada de Tambillo,59,13220,35,shcal20,Hojas,59,Chile,-21.44,-69.31,1123,1000-1500,>1000,QT-9,Nester et al.. 2007
+Quebrada de Tambillo,60,13080,30,shcal20,Hojas,60,Chile,-21.44,-69.25,1325,1000-1500,>1000,N05-11,Nester et al.. 2007
+Quebrada de Tambillo,61,12244,96,shcal20,Hojas,61,Chile,-21.4,-69.42,986,800-1000,700-1000,N04-14a,Nester et al.. 2007
+Quebrada de Tambillo,62,12735,30,shcal20,Hojas,62,Chile,-21.4,-69.42,986,800-1000,700-1000,N05-12a,Nester et al.. 2007
+Quebrada de Tambillo,63,12435,30,shcal20,Hojas,63,Chile,-21.4,-69.43,986,800-1000,700-1000,N05-18,Nester et al.. 2007
+Quebrada de Tambillo,64,10170,20,shcal20,Hojas,64,Chile,-21.43,-69.46,858,800-1000,700-1000,N06-11a,Nester et al.. 2007
+Quebrada de Tambillo,65,12400,192,shcal20,Hojas,65,Chile,-21.38,-69.41,1011,1000-1500,>1000,LDS-1,Gayo et al. 2012
+Quebrada de Tambillo,66,12630,40,shcal20,Hojas,66,Chile,-21.39,-69.43,972,800-1000,700-1000,LDS-5,Gayo et al. 2012
+Quebrada de Tambillo,67,10120,40,shcal20,Ramas,67,Chile,-21.39,-69.43,972,800-1000,700-1000,LDS-6A,Gayo et al. 2012
+Quebrada de Tambillo,68,10320,40,shcal20,Ramas,68,Chile,-21.39,-69.43,972,800-1000,700-1000,LDS-6B,Gayo et al. 2012
+Quebrada de Tambillo,69,12950,40,shcal20,Corteza,69,Chile,-21.42,-69.45,868,800-1000,700-1000,LDS-7,Gayo et al. 2012
+Sur Viejo,70,9880,36,shcal20,Tronco,70,Chile,-20.991216331,-69.498057111,923,800-1000,700-1000,SUR VIEJO AF24,Recolección Francisca Díaz terreno
+Sur Viejo,71,10039,36,shcal20,Tronco,71,Chile,-20.990401113,-69.498862579,923,800-1000,700-1000,SUR VIEJO AF25,Recolección Francisca Díaz terreno
+Llamara,72,5048,24,shcal20,Madera,72,Chile,-21.190192484,-69.661532981,760-790,700-800,700-1000,SL1 QH,Paula Ugalde?
+Llamara,73,6897,24,shcal20,Madera,73,Chile,-21.177140686,-69.66878629,760-790,700-800,700-1000,SL1 QH,Paula Ugalde?
+Llamara,74,7127,24,shcal20,Madera,74,Chile,-21.177167741,-69.668796045,760-790,700-800,700-1000,SL1 QH,Paula Ugalde?
+Llamara,75,7198,45,shcal20,Madera,75,Chile,-21.17,-69.631222655,760-790,700-800,700-1000,GUA-6,Tesis Héctor Orellana Cortés
+Llamara,76,2997,34,shcal20,Madera,76,Chile,-21.17,-69.631222655,760-790,700-800,700-1000,GUA-7,Tesis Héctor Orellana Cortés
+Llamara,77,2494,28,shcal20,Tronco,77,Chile,-21.195,-69.65441636,760-790,700-800,700-1000,PDQ2023-08,Recolección Francisca Díaz terreno
+Llamara,78,2569,28,shcal20,Tronco,78,Chile,-21.187,-69.630838301,760-790,700-800,700-1000,AF28,Recolección Francisca Díaz terreno
+Llamara,79,3630,27,shcal20,Tronco,79,Chile,-21.146,-69.681235962,760-790,700-800,700-1000,AF21,Recolección Francisca Díaz terreno
+Llamara,80,3843,26,shcal20,Tronco,80,Chile,-21.193,-69.65312596,760-790,700-800,700-1000,PDQ2023-04,Recolección Francisca Díaz terreno
+Llamara,81,4441,22,shcal20,Tronco,81,Chile,-21.192,-69.660540519,760-790,700-800,700-1000,AF02,Recolección Francisca Díaz terreno
+Llamara,82,4448,27,shcal20,Tronco,82,Chile,-21.146,-69.669669827,760-790,700-800,700-1000,LLAM N2023-04,Recolección Francisca Díaz terreno
+Llamara,83,5253,31,shcal20,Tronco,83,Chile,-21.139825295,-69.67501334,760-790,700-800,700-1000,LLAM N2023-03,Recolección Francisca Díaz terreno
+Llamara,84,7030,31,shcal20,Tronco,84,Chile,-21.1414347,-69.674558362,760-790,700-800,700-1000,LLAM N 2023-02,Recolección Francisca Díaz terreno
+Llamara,85,7139,33,shcal20,Tronco,85,Chile,-21.141768635,-69.672344836,760-790,700-800,700-1000,LLAM N 2023-01,Recolección Francisca Díaz terreno
+Llamara,86,6897,24,shcal20,Tronco,86,Chile,-21.177140686,-69.66878629,760-790,700-800,700-1000,SLl QH,Recolección Francisca Díaz terreno
+Llamara,87,7127,24,shcal20,Tronco,87,Chile,-21.177167741,-69.668796045,760-790,700-800,700-1000,SLl QH,Recolección Francisca Díaz terreno
+Llamara,88,7998,30,shcal20,Tronco,88,Chile,-21.263998139,-69.618324699,760-790,700-800,700-1000,AF26,Recolección Francisca Díaz terreno
+Llamara,89,4147,56,shcal20,Tocones,89,Chile,-21.266713607741,-69.616899859063,760-790,700-800,700-1000,LL-12-15,Mario A. Rivera and J. Dood 2013
+Llamara,90,7049,62,shcal20,Tocones,90,Chile,-21.1509507897858,-69.6355950103519,760-790,700-800,700-1000,LL-680b,Mario A. Rivera and J. Dood 2013
+Llamara,91,7049,62,shcal20,Tocones,91,Chile,-21.2100158760928,-69.6607059215275,760-790,700-800,700-1000,LL12-03,Mario A. Rivera and J. Dood 2013
+Llamara,92,7575,62,shcal20,Tocones,92,Chile,-21.2109815463714,-69.6586675766026,760-790,700-800,700-1000,LL12-05,Mario A. Rivera and J. Dood 2013
+Llamara,93,8179,66,shcal20,Tocones,93,Chile,-21.2109800051349,-69.6590626089758,760-790,700-800,700-1000,LL12-04,Mario A. Rivera and J. Dood 2013
+Llamara,94,8240,75,shcal20,Tocones,94,Chile,-21.2639300288331,-69.6220352744361,760-790,700-800,700-1000,LL-778,Mario A. Rivera and J. Dood 2013
+Llamara,95,7610,20,shcal20,Tocones,95,Chile,-21.1980766834133,-69.6617222229705,760-790,700-800,700-1000,MF-31-PT,Paula Ugalde
+Llamara,96,3511,22,shcal20,Tocones,96,Chile,-21.1980766834133,-69.6617222229705,760-790,700-800,700-1000,GS043,Paula Ugalde
+Llamara,97,6897,24,shcal20,Tocones,97,Chile,-21.1856075417488,-69.6688243660703,760-790,700-800,700-1000,PH01,Paula Ugalde
+Llamara,98,13044,38,shcal20,Tocones,98,Chile,-21.1868052044097,-69.6675484952561,760-790,700-800,700-1000,PH03,Paula Ugalde
+Llamara,99,12360,31,shcal20,Tocones,99,Chile,-21.3637645501679,-69.605094630546,760-790,700-800,700-1000,CSV2,Paula Ugalde
+Llamara,100,12406,31,shcal20,Tocones,100,Chile,-21.3637644458858,-69.6051235655271,760-790,700-800,700-1000,CSV1,Paula Ugalde
+Llamara,101,9165,27,shcal20,Tocones,101,Chile,-21.1725281580654,-69.5718609650554,760-790,700-800,700-1000,PH06,Paula Ugalde
+Llamara,102,50,20,shcal20,Arbol,102,Chile,-21.147889,-69.626252,760-790,700-800,700-1000,TAM1,2024-07-28_Pancha
+Llamara,103,51,20,shcal20,Arbol,103,Chile,-21.1856345700129,-69.6688437545383,759,,700-1000,,
+Llamara,104,52,20,shcal20,Arbol,104,Chile,-21.1856075417488,-69.6688243660703,760,,700-1000,,
+Llamara,105,53,20,shcal20,Arbol,105,Chile,-21.1868052044097,-69.6675484952561,758,,700-1000,,
+Llamara,106,54,20,shcal20,Arbol,106,Chile,-21.1980766834133,-69.6617222229705,760,,700-1000,,
+Llamara,107,55,20,shcal20,Arbol,107,Chile,-21.1986735482526,-69.6615803665424,756,,700-1000,,
+Llamara,108,56,20,shcal20,Arbol,108,Chile,-21.3637644458858,-69.6051235655271,761,,700-1000,,
+Llamara,109,57,20,shcal20,Arbol,119,Chile,-21.153878923515,-69.5275708948922,817,,700-1000,,
+Llamara,110,58,20,shcal20,Arbol,120,Chile,-21.09400852019,-69.5226897482445,844,,700-1000,,
+Llamara,111,59,20,shcal20,Arbol,121,Chile,-21.0799077754384,-69.5216103673487,738,,700-1000,,
+Llamara,112,60,20,shcal20,Arbol,122,Chile,-21.0810029550512,-69.5209884413599,842,,700-1000,,
+Llamara,113,61,20,shcal20,Arbol,123,Chile,-21.0960665493812,-69.5204055212793,818,,700-1000,,
+Llamara,114,62,20,shcal20,Arbol,124,Chile,-21.0811056484741,-69.5199105881551,852,,700-1000,,

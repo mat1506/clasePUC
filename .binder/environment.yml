@@ -40,6 +40,8 @@ dependencies:
   - r-xml
   - r-lme4
   - r-nloptr
+  - r-rcarbon
+  - r-sp
 
   # ——— pip (solo lo que no está en conda) ———
   - pip
